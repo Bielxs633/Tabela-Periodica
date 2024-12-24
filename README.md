@@ -12,8 +12,8 @@ Este projeto é uma **Tabela Periódica**. Ele permite que os usuários explorem
 ---
 
 ## Funcionalidades
-- Exibição de todos os elementos químicos organizados em uma tabela periódica padrão.
-- Ao passar o mouse sobre um elemento, exibe informações básicas.
+1. Exibição de todos os elementos químicos organizados em uma tabela periódica padrão.
+2. Ao passar o mouse sobre um elemento, exibe informações básicas.
 
 ---
 

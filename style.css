@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  
+    background-color: #ffffff;
+    color: #000080;
+}
+
+header>h1{
+    margin: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-align: center;
+}
+
+th#txtTh{
+    position: absolute;
+    background-color: #DCDCDC;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 540px;
+    height: 33px;
+    left: 140px;
+    border: none;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#txt{ 
+    display: flex;
+    position: absolute;
+    background-color: #DCDCDC;
+    color: #000000;
+    width: 540px;
+    height: 120px;
+    left: 140px;
+    top: 58px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 16px;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+    border: none;
+}
+
+div#icone{
+    position: relative;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #3131316c;
+    text-align: center;
+    padding: 10px;
+    font-size: 65px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 500;
+}
+
+p#indice{
+    font-size: 18px;
+}
+
+span#informativo{
+    width: 400px;
+    margin-left:16px;
+    font-size: 14px;
+}
+
+table#main{
+    position: relative;
+    background-color: #708090;
+    color: #000000;
+    width: 1050px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+p{
+    position: absolute;
+    font-size: 10px;
+    font-weight: 100;
+    left: 4px;
+    top: 3px;
+}
+
+td{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    display:inline-block;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+td:hover{
+    cursor: pointer;
+    animation: tada;
+    animation-duration: 2s;
+}
+
+section#legenda{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #708090;
+    width: 1050px;
+    height: 135px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+div.quadrado{
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+    margin-right: 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.822);
+    padding-top: 16px;
+    margin-right: 20px;
+    letter-spacing: 1px;
+}
+
+footer{
+    margin-top: 160px;
+    width: 100%;
+    text-align: center;
+}
+
+.outros{
+    color: #ffffff;
+    font-size: 10px;
+    padding: 4px;
+    text-align: left;
+    border: none;
+}
+
+.oculto{
+    visibility: hidden;
+}
+
+.invisivel{
+    display: none;
+}
+
+.animacao{
+    animation:tada;
+    animation-duration: 2s;
+}
+
+.animacaoLegenda{
+    animation:heartBeat;
+    animation-duration: 3s;
+}
+
+div#nao-metais{
+    background-color: #7FFF00;
+}
+
+div#metais-alcalinos{
+    background-color: #FFD700;
+}
+
+div#metais-alcalino-terrosos{
+    background-color: #FFFF00;
+}
+
+div#metais-de-transicao{
+    background-color: #FA8072;
+}
+
+div#semimetais{
+    background-color: #20B2AA;
+}
+
+div#outros-metais{
+    background-color: #B0C4DE;
+}
+
+div#halogenios{
+    background-color: #87CEEB;
+}
+
+div#gases-nobres{
+    background-color: #4169E1;
+}
+
+div#lantanideos{
+    background-color: #48D1CC;
+}
+
+div#actinidios{
+    background-color: #D8BFD8;
+}
+
+.nao-metal{
+    background-color: #7FFF00;
+}
+
+.metal-alcalino{
+    background-color: #FFD700;
+}
+
+.metal-alcalino-terroso{
+    background-color: #FFFF00;
+}
+
+.metal-de-transicao{
+    background-color: #FA8072;
+}
+
+.semimetais{
+    background-color: #20B2AA;
+}
+
+.outro-metal{
+    background-color: #B0C4DE;
+}
+
+.halogenio{
+    background-color: #87CEEB;
+}
+
+.gas-nobre{
+    background-color: #4169E1;
+}
+
+.lantanideos{
+      background-color: #48D1CC;
+}
+
+.actinidios{
+    background-color: #D8BFD8;
+}
